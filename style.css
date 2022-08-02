@@ -1,3 +1,162 @@
-body{
-  background-color: aqua;
+:root{
+  --primary-color:#92E3A9;
+  --primary-color-hover:#73C78B;
+  --ligth-white-color:#E3E6E4;
+}
+body, html{
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  width: 100vw;
+  height:100vh;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+main .content {
+  width: 82.1333%;
+  height: 82.266%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 34px;
+  max-width: 350px;
+  min-width: 283px;
+  min-height: 500px;
+}
+
+main .content .img {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+main .content {
+  width: 82.1333%;
+  height: 82.266%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 34px;
+  max-width: 350px;
+  min-width: 283px;
+  min-height: 500px;
+}
+main .content .img {
+  width: 97.4025%;
+  height: 44.9101%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .content .text-container {
+  width: 97.0779%;
+  height: 15.4191%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 7px;
+}
+main .content .text-container .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.94px;
+  font-family: inherit;
+}
+main .content .text-container .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.2px;
+  font-family: inherit;
+}
+main .content .pagination {
+  width: 22.7272%;
+  height: 1.7964%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 64px;
+}
+main .content .pagination .point {
+  width: 12px;
+  height: 12px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 50%;
+  background-color: var(--ligth-white-color);
+  border: 1px solid black;
+  cursor: pointer;
+}
+main .content .pagination .selected {
+  background-color: var(--primary-color);
+  border-color: transparent;
+}
+main .content .buttons-container {
+  width: 100%;
+  height: 17.8143%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.2px;
+  font-family: inherit;
+  transition: all ease-in-out 0.2s;
+  margin-top: 63px;
+}
+main .content .buttons-container .next {
+  width: 100%;
+  height: 45.3781%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px #A1C3FC;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+main .content .buttons-container .next:hover {
+  background-color: #73C78B;
+}
+main .content .buttons-container .skip {
+  width: 12.3376%;
+  height: 19.3277%;
+  color: #92E3A9;
+  cursor: pointer;
+}
+main .content .buttons-container .skip:hover {
+  color: #73C78B;
+}
+main .content .buttons-container .hide {
+  display: none;
+}
+
+.bg0 {
+  background-image: url("./img/page1.png");
+}
+
+.bg1 {
+  background-image: url("./img/page2.png");
+}
+
+.bg2 {
+  background-image: url("./img/page3.png");
 }
